@@ -3,11 +3,12 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
   margin: 0;
-  background-color: #fef3e3;
+  background-color: #1a1f36;
+  color: white;
 }
 
 .hero {
-  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  background: linear-gradient(135deg, #64a3e7, #0459f6);
   padding: 50px;
   color: white;
   font-size: 2em;
@@ -28,7 +29,7 @@ canvas {
 }
 
 .slideshow-container {
-  max-width: 600px;
+  max-width: 400px;
   position: relative;
   margin: auto;
 }
@@ -43,13 +44,17 @@ canvas {
 }
 
 #surprise-btn {
-  background: #ff6b6b;
+  background: #415a77;
   color: white;
   padding: 15px 25px;
   font-size: 1.2em;
   border: none;
   border-radius: 10px;
   cursor: pointer;
+}
+
+#surprise-btn:hover {
+  background: #778da9;
 }
 
 #hidden-message {
@@ -60,4 +65,18 @@ canvas {
 .hidden img {
   width: 200px;
   margin-top: 10px;
+}
+
+.download-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #415a77;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1em;
+}
+.download-btn:hover {
+  background-color: #778da9;
 }
