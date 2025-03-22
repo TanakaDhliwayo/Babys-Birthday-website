@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div class="hero">
+      <h1>Happy Birthday, Baby! 🎉</h1>
+      <canvas id="confetti"></canvas>
+    </div>
+
+    <div class="gallery">
+      <h2>Our Favorite Memories</h2>
+      <div class="slideshow-container">
+        <div class="slides fade">
+          <img src="photo1.jpg" alt="Memory 1" />
+        </div>
+        <div class="slides fade">
+          <img src="photo2.jpg" alt="Memory 2" />
+        </div>
+        <div class="slides fade">
+          <img src="photo3.jpg" alt="Memory 3" />
+        </div>
+      </div>
+    </div>
+
+    <div class="surprise-section">
+      <button id="surprise-btn">Click for a Surprise! 🎁</button>
+      <div id="hidden-message" class="hidden">
+        <p>
+          Happy Birthday, my love! Here’s a little something special for you. ❤️
+        </p>
+        <img src="qrcode.png" alt="Surprise QR Code" />
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  background-color: #fef3e3;
+}
+
+.hero {
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  padding: 50px;
+  color: white;
+  font-size: 2em;
+  position: relative;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.gallery {
+  margin: 40px auto;
+}
+
+.slideshow-container {
+  max-width: 600px;
+  position: relative;
+  margin: auto;
+}
+
+.slides img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.surprise-section {
+  margin: 50px auto;
+}
+
+#surprise-btn {
+  background: #ff6b6b;
+  color: white;
+  padding: 15px 25px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#hidden-message {
+  display: none;
+  margin-top: 20px;
+}
+
+.hidden img {
+  width: 200px;
+  margin-top: 10px;
+}
